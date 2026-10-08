@@ -388,6 +388,7 @@ lending-club-analytics/
 4. Open the Power BI file, point the data source to `data/clean/pbi/`, and refresh.
 
 The raw data is not included because of its size (1.6 GB).
+Dataset link:https://www.kaggle.com/datasets/wordsforthewise/lending-club
 
 ---
 
