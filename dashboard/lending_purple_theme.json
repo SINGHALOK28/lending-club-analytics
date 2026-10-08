@@ -1,0 +1,34 @@
+{
+  "name": "Lending Purple",
+  "dataColors": ["#4A148C", "#7B1FA2", "#AB47BC", "#CE93D8", "#9575CD", "#B39DDB", "#6A1B9A", "#9E9E9E"],
+  "background": "#FFFFFF",
+  "foreground": "#2D2D2D",
+  "tableAccent": "#4A148C",
+  "good": "#2E7D32",
+  "neutral": "#F9A825",
+  "bad": "#C62828",
+  "maximum": "#4A148C",
+  "center": "#CE93D8",
+  "minimum": "#F3E5F5",
+  "textClasses": {
+    "callout": { "fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#4A148C" },
+    "title": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#2D2D2D" },
+    "header": { "fontSize": 11, "fontFace": "Segoe UI Semibold", "color": "#2D2D2D" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#6B6B6B" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E6E0EE" } }, "radius": 8 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#2D2D2D" } }, "fontSize": 12, "fontFamily": "Segoe UI Semibold" }],
+        "subTitle": [{ "show": false }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F1F8" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
